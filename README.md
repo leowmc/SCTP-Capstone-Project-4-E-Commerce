@@ -1,9 +1,12 @@
 # Sales Revenue Analysis Using Power BI
 
 
+<img width="1200" alt="image" src="https://github.com/leowmc/leowmc/assets/144865130/23c16fc9-8be3-4ece-a88e-8bf71058c530">
+
+
 ## Project Overview
 
-- Analysing past sales over time period of 4 years for Shopee that sells multiple products focusing on LAC region
+- Analysing past sales over time period of 4 years for Shopee selling multiple products focusing on LAC region (Colombia, Chile, Mexico, Chile)
 - Analysing the sales performance of different product categories to identify which categories will increase company's revenue
 - Data is analysed using Power BI
 
