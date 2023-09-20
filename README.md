@@ -1,7 +1,7 @@
 # Sales Revenue Analysis Using Power BI
 
 
-<img width="1200" alt="image" src="https://github.com/leowmc/leowmc/assets/144865130/23c16fc9-8be3-4ece-a88e-8bf71058c530">
+
 
 
 ## Project Overview
