@@ -73,8 +73,21 @@
   ![image](https://github.com/leowmc/leowmc/assets/144865130/6912fc22-c4d5-457c-aa6c-c1b34d285918)
   
       
+* Create 3 new tables:
+  - Add Table ‘Category’ to identify any sales pattern from the drilldown of the 30 product_names.
+  - Add a table for ‘Date’ using Date = CALENDAR(DATE(2019,9,1),DATE(2022,12,31))
+  - Add a table for ‘Income Group’
+  - Manage relationships in the Data Model for the new tables.
+ 
+    <img width="328" alt="image" src="https://github.com/leowmc/Capstone-Project/assets/144865130/70179954-25db-44f2-84d8-76384b14b44c">
+    <img width="171" alt="image" src="https://github.com/leowmc/Capstone-Project/assets/144865130/cc955b21-0580-464f-a154-53a8d52b7fce">
 
-
+* In the Sales table, create 2 new measures :
+  - Add a new measure for Purchase Frequency to determine the number of appearances of the customers within the period
+    - Purchase Frequency = COUNTROWS('Sales')
+  - Add a new measure for Customer Purchase Quantity (Cus_PurchaseQty) to determine the total number of quantity of products each of the customers purchased within the period
+    - Cus_PurchaseQty = SUMX('Sales', Sales[quantity])
+   
 --
 
 ## Data Analysis & Findings
