@@ -72,22 +72,8 @@
   
   ![image](https://github.com/leowmc/leowmc/assets/144865130/6912fc22-c4d5-457c-aa6c-c1b34d285918)
   
-        
-* Create 3 new tables:
-  - Add Table ‘Category’ to identify any sales pattern from the drilldown of the 30 product_names.
-  - Add a table for ‘Date’ using Date = CALENDAR(DATE(2019,9,1),DATE(2022,12,31))
-  - Add a table for ‘Income Group’
-  - Manage relationships in the Data Model for the new tables.
-  
-  <img width="337" alt="image" src="https://github.com/leowmc/leowmc/assets/144865130/91cbc12f-6780-4841-b5dc-bbd1335a88c2">
-  
-  ![image](https://github.com/leowmc/leowmc/assets/144865130/75529066-3312-48af-992c-c2682d3f1317)
+      
 
-* Create a new measure in Sales Table to determine frequency of purchases of the customers :
-  - Average Appearances = 
-    VAR TotalAppearances = COUNTROWS(Sales)
-    VAR UniqueCustomers = COUNTROWS(SUMMARIZE(Sales, Sales[customer_id]))
-    RETURN DIVIDE(TotalAppearances, UniqueCustomers)
 
 --
 
