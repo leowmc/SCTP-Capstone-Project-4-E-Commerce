@@ -76,7 +76,7 @@
 * Create 3 new tables:
   - Add Table ‘Category’ to identify any sales pattern from the drilldown of the 30 product_names.
   - Add a table for ‘Date’ using Date = CALENDAR(DATE(2019,9,1),DATE(2022,12,31))
-  - Add a table for ‘Income Group’
+  - Add a table for ‘Income Group’ which include Income Group and Income ranking to merge with Customer table 
   - Manage relationships in the Data Model for the new tables.
  
     <img width="328" alt="image" src="https://github.com/leowmc/Capstone-Project/assets/144865130/70179954-25db-44f2-84d8-76384b14b44c">
@@ -87,7 +87,12 @@
     - Purchase Frequency = COUNTROWS('Sales')
   - Add a new measure for Customer Purchase Quantity (Cus_PurchaseQty) to determine the total number of quantity of products each of the customers purchased within the period
     - Cus_PurchaseQty = SUMX('Sales', Sales[quantity])
-   
+
+* Add a new conditional column named 'Age Group' in Customer table :
+
+  ![image](https://github.com/leowmc/Capstone-Project/assets/144865130/9be00619-7637-46d6-baf9-2b5c952ba266)
+
+
 --
 
 ## Data Analysis & Findings
