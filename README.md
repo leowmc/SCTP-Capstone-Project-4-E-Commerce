@@ -1,5 +1,7 @@
 # Sales Revenue Analysis Using Power BI
 
+* An interactive dashboard was created showing the sales and sum of quantity by product category and product names. Additionally there are filters to filter the dashboard by country, dates, customer age, income group for further analysis. The dashboard can be accessed from this link and downloading Revenue Report.pbix.
+
 <img width="1000" alt="image" src="https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/ca62c228-6046-4a44-be0a-4b5372763ac3">
 
 
@@ -76,6 +78,7 @@
 * Create 2 new tables:
   - Add Table ‘Category’ to identify any sales pattern from the drilldown of the 30 product_names.
   - Add a table for ‘Date’ using Date = CALENDAR(DATE(2019,9,1),DATE(2022,12,31))
+
 
 
 
