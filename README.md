@@ -80,13 +80,59 @@
   - Add a table for ‘Date’ using Date = CALENDAR(DATE(2019,9,1),DATE(2022,12,31))
 
 
-
+--
 
 ## Data Analysis & Findings
 
+#### 1. Total Sales by country
+* At $97M, Colombia had the highest Sum of Sales among the region, followed by Chile, Mexico and Brazil which had the lowest Sum of Sales at $80M.
+* At 28% of Sum of Sales, Colombia has highest Sum of Quantity at 74K, followed by Chile, Brazil and Mexico.
 
+#### 2. Total Sales by Year, Quarter and Month and Country
+* Though Colombia has the highest Sales, there is sign of downtrend (8.3%) between Sep 2019 and Dec 2022.
+* Chile, the 2nd highest in Sales, is trending up gradually from Sep 2019 to Dec 2022 with Q4 2022 revenue exceeds that of Colombia.
+* Mexico also shows slightly downtrend in Sales between Sep 2019 to Dec2022.
+* Brazil Sales is flat between September 2019 and December 2022.
 
+#### 3. Total Sales and Quantity of Category and Products
+* The top 4 total Sales of the 4 countries are similar, mainly from the product category Home Décor, Home Furniture, Kitchen Appliances, and Electronic Devices.
+* At $140M, Home Decor had the highest Sales and 2nd highest in sales quantity at 54K.
+•	Although Apparel has the highest sales quantity at 90K, the total Sales is 2nd lowest at about 14M. This can be explained by fast fashion driving consumer demand to buy new clothing items in excess with low prices.
 
+#### 4. Total Sales Revenue by Category & Product_Names
+* The bulk of Shopee sales from the 4 countries are generated from home related products. About 67% of the total Sales are from Home Décor, Home Furniture and Kitchen Appliances.
+* The top 10 products are home related products with Sales ranging $22M - $24M. The total Sales of other products like Electronic Devices, Apparel etc are around $10M and below.
+•	The top 10 products of the 4 countries are similar with respect to total Sales.
+
+#### 5. Sum of Quantity by Product_Names
+* Apparel has highest sales quantity at 90K, followed by Home Décor at 54K and the rest are under 30K.
+* By Country, the top 3 product category is similar with respect to total Sales.
+* By Product Name, the difference between the highest and lowest Quantity products are 0.6K, which is statistically not significant. However, the ranking of the products varies among the 4 countries.
+
+#### 6. Sales by Income Group and country
+* From 2019-2022, Colombia and Chile show top sales coming from lower medium income group $30000 - $60000 range, while Mexico top sales come from these 2 income groups ranging $30000-$90000. Only Brazil top sales come from the highest income group $120000-$150000.
+* Both Colombia and Chile top sales come from age group 45-54 yrs old, while that of Brazil from age group 35-44 and Mexico from age group 55-64.
+* Further drilldown on Colombia and Chile on why top sales are coming from lower medium income group $30001-$60000:
+    - For Chile, the top sales from income group $30001-$60000 are dominated by younger adult age group 25-34 with increasing sales over the years. Youth group and younger senior age group 55-64 also seeing higher sales.
+    - For Colombia, the top sales from income group $30001-$60000 are dominated by adult age group 45-54, followed by age group 35-44 and 25-34. These 3 age-group showed declining sales from 2020-2022.
+* The bulk of the product items purchased by all age groups in the 4 countries come from the top 3 product category (Home Décor, Home Furniture and Kitchen Appliances) which contributed to the higher sales.
+  
+#### 7. Customer Purchase Pattern
+* The purchase frequency and customer purchase quantity follow the downtrend in the total Sales over time for Colombia and Mexico and uptrend in total Sales over time for Chile.
+* For all 4 regions, it was also observed that the total Sales is consistently higher from Sep-Dec compared to other months, and this is probably due to seasonal consumer pattern related to holiday season, year-end discount, seasonal products etc which may drive up sales.
+
+--
+## Key Insights
+* Colombia has highest sales and quantity ($97M, 74K), followed by Chile, Mexico and Brazil
+* Sales from Colombia and Mexico shows decreasing trend over time, which follows decreasing trend of purchase frequency and quantity.
+* Sales from Chile shows increasing trend over time, which follows increasing trend of purchase frequency and quantity. Sales in Q4 2022 exceed that of Colombia.
+* Top 3 Product Category from the 4 countries come from ‘Home Related Products’ (Home Décor, Home Furniture, Kitchen Appliances), contributing ~67% of total sales.
+* The Sum of Quantity of these ‘Home Related Products’ is equivalent to that of Apparel which has highest Sum of Quantity at 90K.
+* Adults Age Group across all income groups from the 4 countries contribute the highest sales. However, sales can be driven by different age groups and income groups for the 4 countries.
+  - Colombia and Chile top sales from 2nd lowest income group. 
+  - Mexico top sales from medium income group.
+  - Brazil top sales from highest income group.
+![image](https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/5cad8462-8ba8-41b5-a5e0-342fc8ccedfb)
 
 
 
