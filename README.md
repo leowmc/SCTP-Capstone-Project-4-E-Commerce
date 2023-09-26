@@ -89,54 +89,66 @@
 ## Data Analysis & Findings
 
 #### 1. Total Sales by country
-* At $97M, Colombia had the highest Sum of Sales among the region, followed by Chile, Mexico and Brazil which had the lowest Sum of Sales at $80M.
-* At 28% of Sum of Sales, Colombia has highest Sum of Quantity at 74K, followed by Chile, Brazil and Mexico.
+* Colombia had the highest sales among the region, amounting to $97 million, followed by Chile, Mexico, and Brazil with sales at $80 million.
+* In terms of sales quantity, Colombia accounted for 28% of the total sales, with 74K units sold. Chile, Brazil, and Mexico followed in terms of sales quantity
 
 #### 2. Total Sales by Year, Quarter and Month and Country
-* Though Colombia has the highest Sales, there is sign of downtrend (8.3%) between Sep 2019 and Dec 2022.
-* Chile, the 2nd highest in Sales, is trending up gradually from Sep 2019 to Dec 2022 with Q4 2022 revenue exceeds that of Colombia.
-* Mexico also shows slightly downtrend in Sales between Sep 2019 to Dec2022.
-* Brazil Sales is flat between September 2019 and December 2022.
+* Brazil’s sales trend closely aligns with the average line between September 2019 and December 2022.
+* Although Colombia has the highest sales, there is a sign of an 8.3% downtrend between September 2019 and December 2022, which is a concern.
+* Chile, the second-highest in sales, shows positive signs with sales trending up gradually from September 2019 to December 2022. In Q4 2022, revenue exceeds that of Colombia.
+* Mexico also shows a slight downtrend in sales over time between September 2019 to December 2022
 
 #### 3. Total Sales and Quantity of Category and Products
-* The top 4 total Sales of the 4 countries are similar, mainly from the product category Home Décor, Home Furniture, Kitchen Appliances, and Electronic Devices.
-* At $140M, Home Decor had the highest Sales and 2nd highest in sales quantity at 54K.
-•	Although Apparel has the highest sales quantity at 90K, the total Sales is 2nd lowest at about 14M. This can be explained by fast fashion driving consumer demand to buy new clothing items in excess with low prices.
+* The top four product categories contributing to total sales across the four countries are Home Décor, Home Furniture, Kitchen Appliances, and Electronic Devices.
+* Home Decor had the highest sales at $140 million and was the second-highest in sales quantity at 54K units.
+* Apparel had the highest sales quantity at 90K units but had the second-lowest total sales at approximately $14 million. This can be attributed to fast fashion driving consumer demand to buy new clothing items excessively at low prices.
 
 #### 4. Total Sales Revenue by Category & Product_Names
-* The bulk of Shopee sales from the 4 countries are generated from home related products. About 67% of the total Sales are from Home Décor, Home Furniture and Kitchen Appliances.
-* The top 10 products are home related products with Sales ranging $22M - $24M. The total Sales of other products like Electronic Devices, Apparel etc are around $10M and below.
-•	The top 10 products of the 4 countries are similar with respect to total Sales.
+* The bulk of Shopee sales from the 4 countries are generated from home related products. Approximately 67% of the total Sales are from Home Décor, Home Furniture and Kitchen Appliances.
+* When drilling down by product name, the top 10 products are home-related products with total sales in the range of $22 million to $24 million. On the other hand, total sales from other products like Electronic Devices and Apparel are around $10 million and below.
+* When drilling down by country, the top 10 products across the four countries are similar in terms of total sales.
 
 #### 5. Sum of Quantity by Product_Names
-* Apparel has highest sales quantity at 90K, followed by Home Décor at 54K and the rest are under 30K.
-* By Country, the top 3 product category is similar with respect to total Sales.
-* By Product Name, the difference between the highest and lowest Quantity products are 0.6K, which is statistically not significant. However, the ranking of the products varies among the 4 countries.
+* Apparel has highest sales quantity at 90K, followed by Home Décor at 54K.  The rest of the products have quantities under 30K.
+* By filtering by Country, the top three product categories show similarities in terms of total Sales.
+* Combining all home-related products from Home Décor, Home Furniture, and Kitchen Appliances, the sales quantity is equivalent to that of Apparel at 90K.
+* The difference between the highest and lowest quantity products is 0.6K, which is statistically not significant. However, the ranking of the products varies among the four countries.
 
 #### 6. Sales by Income Group and country
-* From 2019-2022, Colombia and Chile show top sales coming from lower medium income group $30000 - $60000 range, while Mexico top sales come from these 2 income groups ranging $30000-$90000. Only Brazil top sales come from the highest income group $120000-$150000.
-* Both Colombia and Chile top sales come from age group 45-54 yrs old, while that of Brazil from age group 35-44 and Mexico from age group 55-64.
-* Further drilldown on Colombia and Chile on why top sales are coming from lower medium income group $30001-$60000:
-    - For Chile, the top sales from income group $30001-$60000 are dominated by younger adult age group 25-34 with increasing sales over the years. Youth group and younger senior age group 55-64 also seeing higher sales.
-    - For Colombia, the top sales from income group $30001-$60000 are dominated by adult age group 45-54, followed by age group 35-44 and 25-34. These 3 age-group showed declining sales from 2020-2022.
-* The bulk of the product items purchased by all age groups in the 4 countries come from the top 3 product category (Home Décor, Home Furniture and Kitchen Appliances) which contributed to the higher sales.
-  
-#### 7. Customer Purchase Pattern
-* The purchase frequency and customer purchase quantity follow the downtrend in the total Sales over time for Colombia and Mexico and uptrend in total Sales over time for Chile.
-* For all 4 regions, it was also observed that the total Sales is consistently higher from Sep-Dec compared to other months, and this is probably due to seasonal consumer pattern related to holiday season, year-end discount, seasonal products etc which may drive up sales.
+* Colombia and Chile show top sales coming from the lower medium income group ($30,000 - $60,000), while Mexico’s top sales come from these two income groups ranging from $30,000 to $90,000. Only Brazil’s top sales come from the highest income group ($120,000 - $150,000).
+* In general, both Colombia and Chile have their top sales coming from the age group of 45-54 years old, while Brazil’s top sales come from the age group of 35-44 and Mexico’s from the age group of 55-64.
+* For Chile, the top sales from the income group of $30,001-$60,000 are dominated by younger adult age group of 25-34 years old. The youth group and younger senior age group (55-64) also see higher sales.
+* For Colombia, the top sales from the income group of $30,001-$60,000 are dominated by adult age group of 45-54 years old, followed by age groups of 35-44 and 25-34. These three age groups showed declining sales from 2020 to 2022.
+* The bulk of the product items purchased by all age groups in these four countries come from the top three product categories: Home Décor, Home Furniture, and Kitchen Appliances1.
+
+#### 7. Customer Purchase frequency and quantity behaviour over time
+* Colombia and Mexico are experiencing a sales downtrend over time, which aligns with the decreasing trend of customer purchase frequency and quantity.
+  - When drilling down by age group for Colombia, the purchase frequency and quantity from all age groups show a declining trend over time, except for the age group of 35-44.
+* Similarly, for Chile, the sales uptrend over time follows the increasing trend of purchase frequency and quantity.
+  - When drilling down by age group, the purchase frequency and quantity from all age groups show an increasing trend over time, except for the Youth age group showing a slight decline.
+* Mexico’s slight decline in sales over the years is mainly driven by less purchase frequency and quantity from the adult age group of 35-44, as well as the Youth and Seniors age groups.
+* Brazil shows a positive increase in sales from Youths over time.
+* For all four regions, it was observed that the sum of sales is consistently higher from September to December compared to other months. This is likely due to seasonal consumer patterns related to the holiday season, year-end discounts, seasonal products, etc., which may drive up sales1.
+
+
 
 --
 ## Key Insights
-* Colombia has highest sales and quantity ($97M, 74K), followed by Chile, Mexico and Brazil
-* Sales from Colombia and Mexico shows decreasing trend over time, which follows decreasing trend of purchase frequency and quantity.
-* Sales from Chile shows increasing trend over time, which follows increasing trend of purchase frequency and quantity. Sales in Q4 2022 exceed that of Colombia.
-* Top 3 Product Category from the 4 countries come from ‘Home Related Products’ (Home Décor, Home Furniture, Kitchen Appliances), contributing ~67% of total sales.
-* The Sum of Quantity of these ‘Home Related Products’ is equivalent to that of Apparel which has highest Sum of Quantity at 90K.
-* Adults Age Group across all income groups from the 4 countries contribute the highest sales. However, sales can be driven by different age groups and income groups for the 4 countries.
-  - Colombia and Chile top sales from 2nd lowest income group. 
-  - Mexico top sales from medium income group.
-  - Brazil top sales from highest income group.
-![image](https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/5cad8462-8ba8-41b5-a5e0-342fc8ccedfb)
+1. Optimize Product Offerings
+- The bulk of the product items purchased by all age groups in these four countries come from the top three product categories: Home Décor, Home Furniture, and Kitchen Appliances.
+- Businesses operating in these sectors can focus on optimizing their offerings within these categories to capitalize on this demand.
+
+2. Identify Opportunities for Improvement
+- Further analysis is required to understand the underlying factors contributing to the decline in sales and customer behaviour over time. For examples :
+  - Colombia and Mexico are experiencing a downtrend in sales over time, which aligns with the decreasing trend of customer purchase frequency and quantity. 
+  - Colombia’s top sales from the income group of $30,001-$60,000 are dominated by adult age group 45-54 years old, followed by age groups 35-44 and 25-34. These three age groups showed declining sales from 2020 to 2022. 
+
+3. Targeting Specific Age Group and Income Group
+- Understanding the income-specific or age-specific trends in customer behaviour can help businesses tailor their marketing strategies accordingly. For examples :
+  - Businesses operating in Colombia and Chile may benefit from targeting customers in the lower medium income range ($30000 - $60000), while businesses operating in Mexico may benefit from targeting customers in the income       range of $30000 to $ 90000.
+  - Chile shows an uptrend in sales over time, which follows the increasing trend of purchase frequency and quantity across all adult age groups. This suggests that businesses operating in Chile may benefit from targeting         specific age groups to capitalize on this increasing trend.
+
+
 
 
 
