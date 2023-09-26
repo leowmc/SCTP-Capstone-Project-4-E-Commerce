@@ -2,8 +2,7 @@
 
 * An interactive dashboard was created showing the sales and sum of quantity by product category and product names. Additionally there are filters to filter the dashboard by country, dates, customer age, income group for further analysis. The dashboard can be accessed from this link and downloading Revenue Report.pbix.
 
-<img width="1000" alt="image" src="https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/ca62c228-6046-4a44-be0a-4b5372763ac3">
-
+<img width="1000" alt="image" src="https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/20ca4501-117f-46d8-96d0-19208d954a4c">
 
 
 ## Project Overview
@@ -33,10 +32,10 @@
   - Purchase.csv file showing purchase price of different product names, with information on discount, tax, quantity and shipping cost for each order.
 * Both datasets are imported from .csv files using Power BI where some data cleaning is done.  
 * From the column profile in the View tab, Customer dataset contains 1000 rows and 7 columns, while Purchase dataset contains 50000 rows and 11 columns. No nulls/errors/duplicates are detected.
-  
-<img width="800" alt="image" src="https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/687f471b-7436-4445-9510-c80ccac01bba">
 
-<img width="800" alt="image" src="https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/e2650046-349f-4cd7-b981-8cea51bdcbdd">
+  <img width="800" alt="image" src="https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/687f471b-7436-4445-9510-c80ccac01bba">
+
+  <img width="800" alt="image" src="https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/e2650046-349f-4cd7-b981-8cea51bdcbdd">
 
 * In the customer table,
   - Merge columns first_name and last name under transform tab, and rename as ‘Full Name’ before removing columns for first_name and last_name.
@@ -46,6 +45,11 @@
   - For deep dive analysis, 2 new columns are added by merging queries, one is the Age Group to bin the different age groups, and the other is the Income Group binned according to the different income group.
 
     <img width="800" alt="image" src="https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/93885680-23d3-442d-9c7a-2a46d590d013">
+    
+    <img width="200" alt="image" src="https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/b16ebb0a-f84e-4894-95d3-2b4ae0dbbf8d">
+    
+    <img width="200" alt="image" src="https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/5c315ffa-4a6c-40af-ad13-98f083b1b8cc">
+
 
 
 * In the purchase table,
@@ -57,30 +61,30 @@
     ![image](https://github.com/leowmc/leowmc/assets/144865130/1bbc7386-22f0-4ca5-86d1-74cc748d9585)
   
     - Sales dataset in Aug 2019 will be removed as data is incomplete, as order date only from 15/8/2019 to 31/8/2019, total 694 rows.
-    - Final number of rows become 49262.
+    - Final number of rows in Sales table become 49262.
   
     ![image](https://github.com/leowmc/leowmc/assets/144865130/6912fc22-c4d5-457c-aa6c-c1b34d285918)
     
-  - For deep dive analysis, following new columns and measures are added :
-    - Added column ‘Sales’ using formula: sales = Sales[price] * Sales[quantity]
-    - Added column ‘Lead Time’ using formula: Lead Time = DATEDIFF(Sales[order_date], Sales[shipping_date], DAY)
+  - For deep dive analysis, following 2 new columns and 2 new measures are added :
+    - Added new column ‘Sales’ using formula: sales = Sales[price] * Sales[quantity]
+    - Added new column ‘Lead Time’ using formula: Lead Time = DATEDIFF(Sales[order_date], Sales[shipping_date], DAY)
   
     ![image](https://github.com/leowmc/leowmc/assets/144865130/314dbe89-f25e-4aa6-88cc-ab59f9dc448d)
   
     ![image](https://github.com/leowmc/leowmc/assets/144865130/6e5c34d1-159b-4e4e-be25-bde94934f585)
  
-   - Add a new measure for Purchase Frequency to determine the number of appearances of the customers within the period
+    - Added new measure for Purchase Frequency to determine the number of appearances of the customers within the period
       - Purchase Frequency = COUNTROWS('Sales')
-    - Add a new measure for Customer Purchase Quantity (Cus_PurchaseQty) to determine the total number of quantity of products each of the customers purchased within the period
+    - Added new measure for Customer Purchase Quantity (Cus_PurchaseQty) to determine the total number of quantity of products each of the customers purchased within the period
       - Cus_PurchaseQty = SUMX('Sales', Sales[quantity])
 
   
 * Create 2 new tables:
-  - Add Table ‘Category’ to identify any sales pattern from the drilldown of the 30 product_names.
-  - Add a table for ‘Date’ using Date = CALENDAR(DATE(2019,9,1),DATE(2022,12,31))
+  - Added a table for ‘Category’ to group the 30 product_names into their respective product categories to identify any sales pattern
+  - Added a table for ‘Date’ using Date = CALENDAR(DATE(2019,9,1),DATE(2022,12,31))
 
 
---
+
 
 ## Data Analysis & Findings
 
