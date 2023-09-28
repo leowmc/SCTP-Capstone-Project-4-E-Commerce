@@ -130,7 +130,7 @@ An interactive dashboard was created showing the sales and sum of quantity by pr
 * For Chile, the top sales from the income group of $30,001-$60,000 are dominated by younger adult age group of 25-34 years old. The youth group and younger senior age group (55-64) also see higher sales.
 * For Colombia, the top sales from the income group of $30,001-$60,000 are dominated by adult age group of 45-54 years old, followed by age groups of 35-44 and 25-34. These three age groups showed declining sales from 2020 to 2022.
 * It was observed that except Brazil, the higher income groups from Colombia, Chile and Mexico seem to spend less than the lower medium income group $30000 - $60000.
-* The bulk of the product items purchased by all age groups in these four countries come from the top three product categories: Home Décor, Home Furniture, and Kitchen Appliances1.
+* The bulk of the product items purchased by all age groups in these four countries come from the top three product categories: Home Décor, Home Furniture, and Kitchen Appliances.
 
 #### 7. Customer Purchase frequency and quantity behaviour over time
 * Colombia and Mexico are experiencing a sales downtrend over time, which aligns with the decreasing trend of customer purchase frequency and quantity.
@@ -138,7 +138,7 @@ An interactive dashboard was created showing the sales and sum of quantity by pr
 * Similarly, for Chile, the sales uptrend over time follows the increasing trend of purchase frequency and quantity.
   - When drilling down by age group, the purchase frequency and quantity from all age groups show an increasing trend over time, except for the Youth age group showing a slight decline.
 * Mexico’s slight decline in sales over the years is mainly driven by less purchase frequency and quantity from the adult age group of 35-44, as well as the Youth and Seniors age groups.
-* Brazil shows a positive increase in sales from Youths over time.
+* Brazil shows a positive increase in sales from Youths over time, offset the decline in sales from some adult age groups.
 
 <br />
 
