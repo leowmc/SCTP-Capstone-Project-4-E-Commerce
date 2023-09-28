@@ -1,4 +1,4 @@
-# Sales Revenue Analysis Using Power BI
+# Shopee Sales Analysis Using Power BI
 
 * An interactive dashboard was created showing the sales and sum of quantity by product category and product names. Additionally there are filters to filter the dashboard by country, dates, customer age, income group for further analysis. The dashboard can be accessed from downloading Shopee Sales Report 2019-2022.pbix.
 
