@@ -1,10 +1,14 @@
 # Shopee Sales Analysis Using Power BI
 
-* An interactive dashboard was created showing the sales and sum of quantity by product category and product names. Additionally there are filters to filter the dashboard by country, dates, customer age, income group for further analysis. The dashboard can be accessed from downloading _**Shopee Sales Report 2019-2022.pbix**_.
+<img width="800" alt="image" src="https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/7f27d358-3fd0-4a51-bf18-7dd741db7a9a"> <br />
 
-<img width="1000" alt="image" src="https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/20ca4501-117f-46d8-96d0-19208d954a4c">
 
-<br />
+
+An interactive dashboard was created showing the sales and sum of quantity by product category and product names. Additionally there are filters to filter the dashboard by country, dates, customer age, income group for further analysis. The dashboard can be accessed from downloading _**Shopee Sales Report 2019-2022.pbix**_.
+
+<img width="1000" alt="image" src="https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/20ca4501-117f-46d8-96d0-19208d954a4c"> <br />
+
+
 
 ## Project Overview
 
