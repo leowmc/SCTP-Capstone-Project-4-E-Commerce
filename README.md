@@ -1,9 +1,10 @@
 # Sales Revenue Analysis Using Power BI
 
-* An interactive dashboard was created showing the sales and sum of quantity by product category and product names. Additionally there are filters to filter the dashboard by country, dates, customer age, income group for further analysis. The dashboard can be accessed from this link and downloading Revenue Report.pbix.
+* An interactive dashboard was created showing the sales and sum of quantity by product category and product names. Additionally there are filters to filter the dashboard by country, dates, customer age, income group for further analysis. The dashboard can be accessed from this link and downloading Shopee Sales Report 2019-2022.pbix.
 
 <img width="1000" alt="image" src="https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/20ca4501-117f-46d8-96d0-19208d954a4c">
 
+<br />
 
 ## Project Overview
 
@@ -11,9 +12,13 @@
 - Analysing the sales performance of different product categories to identify which categories will increase company's revenue
 - Data is analysed using Power BI
 
+<br />
+
 ## Business Objectives
 - To analyse which categories of products have the best sales performance and how they are affected by country, customer gender, age and income
 - Identify which customer base to enhance customer experience and recommend relevant products to customers and increase revenue
+
+<br />
 
 ## Questions to guide the analysis
 - Which country brings in the highest revenue?
@@ -21,6 +26,8 @@
 - Which product category has the highest quantity of sales?
 - Which periods bring in the most sales in terms of quantity and profit?
 - Are the products sales performance affected by discount, lead time, age group, income or other factors?
+
+<br />
 
 ## Data Preparation
 
@@ -83,8 +90,7 @@
   - Added a table for ‘Category’ to group the 30 product_names into their respective product categories to identify any sales pattern
   - Added a table for ‘Date’ using Date = CALENDAR(DATE(2019,9,1),DATE(2022,12,31))
 
-
-
+<br />
 
 ## Data Analysis & Findings
 
@@ -106,7 +112,7 @@
 #### 4. Total Sales Revenue by Category & Product_Names
 * The bulk of Shopee sales from the 4 countries are generated from home related products. Approximately 67% of the total Sales are from Home Décor, Home Furniture and Kitchen Appliances.
 * When drilling down by product name, the top 10 products are home-related products with total sales in the range of $22 million to $24 million. On the other hand, total sales from other products like Electronic Devices and Apparel are around $10 million and below.
-* When drilling down by country, the top 10 products across the four countries are similar in terms of total sales.
+* When filter by country, the top 10 products across the four countries are similar in terms of total sales.
 
 #### 5. Sum of Quantity by Product_Names
 * Apparel has highest sales quantity at 90K, followed by Home Décor at 54K.  The rest of the products have quantities under 30K.
@@ -119,6 +125,7 @@
 * In general, both Colombia and Chile have their top sales coming from the age group of 45-54 years old, while Brazil’s top sales come from the age group of 35-44 and Mexico’s from the age group of 55-64.
 * For Chile, the top sales from the income group of $30,001-$60,000 are dominated by younger adult age group of 25-34 years old. The youth group and younger senior age group (55-64) also see higher sales.
 * For Colombia, the top sales from the income group of $30,001-$60,000 are dominated by adult age group of 45-54 years old, followed by age groups of 35-44 and 25-34. These three age groups showed declining sales from 2020 to 2022.
+* It was observed that except Brazil, the higher income groups from Colombia, Chile and Mexico seem to spend less than the lower medium income group $30000 - $60000.
 * The bulk of the product items purchased by all age groups in these four countries come from the top three product categories: Home Décor, Home Furniture, and Kitchen Appliances1.
 
 #### 7. Customer Purchase frequency and quantity behaviour over time
@@ -128,25 +135,27 @@
   - When drilling down by age group, the purchase frequency and quantity from all age groups show an increasing trend over time, except for the Youth age group showing a slight decline.
 * Mexico’s slight decline in sales over the years is mainly driven by less purchase frequency and quantity from the adult age group of 35-44, as well as the Youth and Seniors age groups.
 * Brazil shows a positive increase in sales from Youths over time.
-* For all four regions, it was observed that the sum of sales is consistently higher from September to December compared to other months. This is likely due to seasonal consumer patterns related to the holiday season, year-end discounts, seasonal products, etc., which may drive up sales1.
 
+<br />
 
-
---
 ## Key Insights
-1. Optimize Product Offerings
-- The bulk of the product items purchased by all age groups in these four countries come from the top three product categories: Home Décor, Home Furniture, and Kitchen Appliances.
-- Businesses operating in these sectors can focus on optimizing their offerings within these categories to capitalize on this demand.
+**1. Optimize Product Offerings**
+  - The bulk of the product items purchased by all age groups in these four countries come from the top three product categories: Home Décor, Home Furniture, and Kitchen Appliances.
+  - Businesses operating in these sectors can focus on optimizing their offerings within these categories to capitalize on this demand.
 
-2. Identify Opportunities for Improvement
-- Further analysis is required to understand the underlying factors contributing to the decline in sales and customer behaviour over time. For examples :
+<br />
+
+**2. Identify Opportunities for Improvement**
   - Colombia and Mexico are experiencing a downtrend in sales over time, which aligns with the decreasing trend of customer purchase frequency and quantity. 
-  - Colombia’s top sales from the income group of $30,001-$60,000 are dominated by adult age group 45-54 years old, followed by age groups 35-44 and 25-34. These three age groups showed declining sales from 2020 to 2022. 
+  - Further analysis is required to understand the underlying factors contributing to the decline in sales and customer behaviour over time. 
 
-3. Targeting Specific Age Group and Income Group
-- Understanding the income-specific or age-specific trends in customer behaviour can help businesses tailor their marketing strategies accordingly. For examples :
-  - Businesses operating in Colombia and Chile may benefit from targeting customers in the lower medium income range ($30000 - $60000), while businesses operating in Mexico may benefit from targeting customers in the income       range of $30000 to $ 90000.
-  - Chile shows an uptrend in sales over time, which follows the increasing trend of purchase frequency and quantity across all adult age groups. This suggests that businesses operating in Chile may benefit from targeting         specific age groups to capitalize on this increasing trend.
+<br />
+
+**3. Targeting Specific Age Group and Income Group**
+  - Understanding the income-specific or age-specific trends in customer behaviour can help businesses tailor their marketing strategies accordingly. For examples :
+    - Businesses can attract more higher income groups to spend more by creating a premium brand as higher-income groups are more likely to purchase products from brands that they perceive as premium. 
+    - Chile shows an increasing trend of purchase frequency and quantity across all adult age groups. This suggests that businesses operating in Chile may benefit from targeting specific age groups using targeted advertising        to capitalize on this increasing trend. 
+
 
 
 
