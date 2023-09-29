@@ -145,7 +145,7 @@ An interactive dashboard was created showing the sales and sum of quantity by pr
 * It was observed that except Brazil, the higher income groups from Colombia, Chile and Mexico seem to spend less than the lower medium income group $30000 - $60000.
 * The bulk of the product items purchased by all age groups in these four countries come from the top three product categories: Home Décor, Home Furniture, and Kitchen Appliances.
 
-<img width="800" alt="image" src="https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/86c14bee-b9cb-46c9-8a25-b3e114b32770">
+<img width="1000" alt="image" src="https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/86c14bee-b9cb-46c9-8a25-b3e114b32770">
 
 
 #### 7. Customer Purchase frequency and quantity behaviour over time
