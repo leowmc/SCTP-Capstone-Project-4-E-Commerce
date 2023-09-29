@@ -18,7 +18,7 @@ An interactive dashboard was created showing the sales and sum of quantity by pr
 <br />
 
 ## Business Objectives
-- To analyse which categories of products have the best sales performance and how they are affected by country, customer gender, age and income
+- As a data analyst from Shopee, my task is to analyse which categories of products have the best sales performance and how they are affected by country, customer gender, age and income
 - Identify which customer base to enhance customer experience and recommend relevant products to customers and increase revenue
 
 <br />
