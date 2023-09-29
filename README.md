@@ -131,6 +131,9 @@ An interactive dashboard was created showing the sales and sum of quantity by pr
 * It was observed that except Brazil, the higher income groups from Colombia, Chile and Mexico seem to spend less than the lower medium income group $30000 - $60000.
 * The bulk of the product items purchased by all age groups in these four countries come from the top three product categories: Home Décor, Home Furniture, and Kitchen Appliances.
 
+<img width="800" alt="image" src="https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/86c14bee-b9cb-46c9-8a25-b3e114b32770">
+
+
 #### 7. Customer Purchase frequency and quantity behaviour over time
 * Colombia and Mexico are experiencing a sales downtrend over time, which aligns with the decreasing trend of customer purchase frequency and quantity.
   - When drilling down by age group for Colombia, the purchase frequency and quantity from all age groups show a declining trend over time, except for the age group of 35-44.
@@ -138,6 +141,9 @@ An interactive dashboard was created showing the sales and sum of quantity by pr
   - When drilling down by age group, the purchase frequency and quantity from all age groups show an increasing trend over time, except for the Youth age group showing a slight decline.
 * Mexico’s slight decline in sales over the years is mainly driven by less purchase frequency and quantity from the adult age group of 35-44, as well as the Youth and Seniors age groups.
 * Brazil shows a positive increase in sales from Youths over time, offset the decline in sales from some adult age groups.
+
+<img width="800" alt="image" src="https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/73924b6b-229a-4d15-8b74-f5b2463b25fc">
+
 
 <br />
 
