@@ -101,21 +101,35 @@ An interactive dashboard was created showing the sales and sum of quantity by pr
 * Colombia had the highest sales among the region, amounting to $97 million, followed by Chile, Mexico, and Brazil with sales at $80 million.
 * In terms of sales quantity, Colombia accounted for 28% of the total sales, with 74K units sold. Chile, Brazil, and Mexico followed in terms of sales quantity
 
+<img width="500" alt="image" src="https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/7c5803a0-bcb3-43c1-a5a6-1b190ba3d83f">
+
+
 #### 2. Total Sales by Year, Quarter and Month and Country
 * Brazil’s sales trend closely aligns with the average line between September 2019 and December 2022.
 * Although Colombia has the highest sales, there is a sign of an 8.3% downtrend between September 2019 and December 2022, which is a concern.
 * Chile, the second-highest in sales, shows positive signs with sales trending up gradually from September 2019 to December 2022. In Q4 2022, revenue exceeds that of Colombia.
 * Mexico also shows a slight downtrend in sales over time between September 2019 to December 2022
 
+<img width="800" alt="image" src="https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/d0382631-7c9b-497d-8f11-469d508ba3dd">
+
+<img width="800" alt="image" src="https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/b87aec1b-267b-4d10-ad15-6d0e246a8564">
+
+
 #### 3. Total Sales and Quantity of Category and Products
 * The top four product categories contributing to total sales across the four countries are Home Décor, Home Furniture, Kitchen Appliances, and Electronic Devices.
 * Home Decor had the highest sales at $140 million and was the second-highest in sales quantity at 54K units.
 * Apparel had the highest sales quantity at 90K units but had the second-lowest total sales at approximately $14 million. This can be attributed to fast fashion driving consumer demand to buy new clothing items excessively at low prices.
 
+<img width="800" alt="image" src="https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/463bf280-d199-46a5-8f9b-ce253548066b">
+
+
 #### 4. Total Sales Revenue by Category & Product_Names
 * The bulk of Shopee sales from the 4 countries are generated from home related products. Approximately 67% of the total Sales are from Home Décor, Home Furniture and Kitchen Appliances.
 * When drilling down by product name, the top 10 products are home-related products with total sales in the range of $22 million to $24 million. On the other hand, total sales from other products like Electronic Devices and Apparel are around $10 million and below.
 * When filter by country, the top 10 products across the four countries are similar in terms of total sales.
+
+<img width="800" alt="image" src="https://github.com/leowmc/SCTP-Capstone-Project-4-E-Commerce/assets/144865130/ee43dba4-11f8-4bc5-9beb-76b32b1371d8">
+
 
 #### 5. Sum of Quantity by Product_Names
 * Apparel has highest sales quantity at 90K, followed by Home Décor at 54K.  The rest of the products have quantities under 30K.
